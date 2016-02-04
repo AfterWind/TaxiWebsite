@@ -1,0 +1,183 @@
+html, body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    background: linear-gradient(dimgray 15%, black 85%);
+    height: 995px;
+}
+
+.center {
+    position: relative;
+    display: block;
+    text-align: center;
+
+    padding: 0;
+    width: 910px;
+    height: 995px;
+    margin: 0 auto;
+}
+
+.plot {
+    position: relative;
+    display: inline-block;
+
+    height: 100%;
+    width: 850px;
+}
+
+.plot .flex {
+    position: relative;
+    display: flex;
+
+    height: 100%;
+    flex-flow: column;
+}
+
+.plot .flex .row{
+    flex: 0 1 30px;
+}
+
+.plot .flex .row.header {
+    flex: 0 1 auto;
+}
+
+.plot .flex .row.content {
+    flex: 1 1 auto;
+    background-image: url("../images/bg_1.jpg");
+    background-position-y: -450px;
+    text-align: left;
+    height: 100%;
+}
+
+.plot .flex .row.footer {
+    flex: 0 1 40px;
+}
+
+.plot .flex .row.content p {
+    position: relative;
+    padding: 0 30px;
+    width: 450px;
+}
+
+.plot .flex .row.content input {
+    float: left;
+}
+
+.menu {
+    display: table;
+    border-bottom: 4px solid black;
+    background: linear-gradient(dimgray, black);
+    background-position-y: -45px;
+}
+
+.menu a {
+    position: relative;
+
+    float: left;
+
+    top: 50px;
+    width: 100px;
+    background-color: black;
+    padding: 15px 15px;
+
+    font-size: 15px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.menu a:hover {
+    color: orange;
+}
+
+.logo {
+    float: left;
+    background-image: url("../images/logo.jpg");
+    background-position-y: -50px;
+    height: 100px;
+    width: 200px;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+.stripe {
+    position: relative;
+    display: inline-block;
+
+    background: url("../images/taxi_stripes_small_2.jpg") repeat-y;
+    width: 30px;
+    height: 100%;
+}
+
+.stripe.left {
+    float: left;
+}
+
+.stripe.right {
+    float: right;
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+
+    width: 300px;
+    border: 1px solid black;
+}
+
+#taxi1 {
+    background-image: url("../images/taxi_1.jpeg");
+    float: right;
+    left: -30px;
+    height: 190px;
+}
+
+#taxi2 {
+    background-image: url("../images/taxi_3.jpg");
+    float: left;
+    left: 30px;
+    height: 168px;
+}
+
+.copyright {
+    position: relative;
+    float: right;
+    top: -35px;
+    margin: 5px 20px;
+
+    color: white;
+    font-family: "Courier 10 Pitch";
+}
+
+.contact_form {
+    width: 100%;
+}
+
+.contact_form input, textarea{
+    width: 70%;
+    padding: 10px;
+    margin: 10px 30px;
+}
+
+.contact_form #huge {
+    height: 250px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+h1 {
+    position: relative;
+    padding-left: 40px;
+}
+
+a {
+    color: inherit;
+    font-style: inherit;
+    text-underline: none;
+    text-decoration: none;
+}
